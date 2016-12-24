@@ -1,0 +1,75 @@
+*{
+margin: 0;
+padding: 0;
+}
+img {
+		display: block;
+		margin: auto;
+		}
+.link {
+width: 100px;
+height: 100px;
+float: left;
+position: absolute;
+left: 0px;
+top: 0px;
+border: 3px solid red;
+}
+.hoverfx {
+background-color: green;
+}
+.hoverabout {
+background-color: red;
+}
+.hoverprojects {
+background-color: blue;
+}
+.hovervalues {
+background-color: orange;
+}
+.hovercontact {
+background-color: purple;
+}
+#fx {
+z-index:99;
+left: 415px;
+top: 445px;
+}
+#about {
+z-index:99;
+left: 525px;
+top: 445px;
+}
+#projects {
+z-index:99;
+left: 635px;
+top: 445px;
+}
+#values {
+z-index:99;
+left: 745px;
+top: 445px;
+}
+#contact {
+z-index:99;
+left: 855px;
+top: 445px;
+}
+#background{
+ position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+.marquee{
+	width: 100%;
+    overflow: hidden;
+    /*border:1px solid #ccc;*/
+    background: none;
+    color: black;
+	font-size: 20px;
+}
+    
