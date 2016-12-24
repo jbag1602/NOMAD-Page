@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NOMAD CREATIVITY</title>
+	<link rel="stylesheet" type="style/css" href="style.css">
+	<link rel="icon" type="img/x-icon" href="favicon1.ico">
+	<script src="jquery-2.1.1.min.js"></script>
+	<script src="jquery-ui.js"></script>
+	<script src="jquery.marquee.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('#fx').hover(function(){
+			$('body').stop(true, true).addClass('hoverfx', 1500);
+		},
+		function(){$('body').stop(true, true).removeClass('hoverfx', 150);
+		}
+		)
+		$('#about').hover(function(){
+			$('body').stop(true, true).addClass('hoverabout', 1500);
+		},
+		function(){$('body').stop(true, true).removeClass('hoverabout', 150);
+		}
+		)
+		$('#projects').hover(function(){
+			$('body').stop(true, true).addClass('hoverprojects', 1500);
+		},
+		function(){$('body').stop(true, true).removeClass('hoverprojects', 150);
+		}
+		)
+		$('#values').hover(function(){
+			$('body').stop(true, true).addClass('hovervalues', 150);
+		},
+		function(){$('body').stop(true, true).removeClass('hovervalues', 150);
+		}
+		)
+		$('#contact').hover(function(){
+			$('body').stop(true, true).addClass('hovercontact', 150);
+		},
+		function(){$('body').stop(true, true).removeClass('hovercontact', 150);
+		}
+		)
+		$(function(){
+			$('.marquee').marquee({
+				duration: 15000
+			});
+			});
+		
+		}
+	);
+	</script>
+</head>
+<body>
+	<img src="NOMADBESTsmall.jpg" alt="Logo" style="z-index:10;" usemap="#Map">
+	<map name="Map" id="Map">
+		<area id="fx" alt="" title="" href="#" shape="poly" coords="192,164,161,216,134,259,120,280,108,298,97,312,89,324,81,333,76,341,93,338,108,316,122,297,147,254,172,209" />
+		<area id="about" alt="" title="" href="#" shape="poly" coords="125,314,103,347,150,356,176,361,196,365,197,328" />
+		<area id="projects" alt="" title="" href="#" shape="poly" coords="206,153,170,233,154,263,135,294,128,305,198,318" />
+		<area id="values" alt="" title="" href="#" shape="poly" coords="217,142,208,320,332,342,274,247" />
+		<area id="contact" alt="" title="" href="#" shape="poly" coords="206,330,204,367,371,400,338,353" />
+		<area alt="" title="" href="#" shape="poly" coords="221,131,234,128,258,125,281,121,305,119,338,112,366,104,393,95,411,87,490,223,451,257,430,276,411,292,390,308,362,329,343,344,281,240" />
+		<area alt="" title="" href="#" shape="poly" coords="350,352,424,294,496,232,527,285,395,411,372,385" />
+	</map>
+	<!--<img src="https://download.unsplash.com/photo-1421930451953-73c5c9ae9abf" id="background" style="z-index:-10;">-->
+	<a href="http://www.facebook.com"><div id="fx" class="link"></div></a>
+	<a href="http://www.facebook.com"><div id="about" class="link"></div></a>
+	<a href="http://www.facebook.com"><div id="projects" class="link"></div></a>
+	<a href="http://www.facebook.com"><div id="values" class="link"></div></a>
+	<a href="http://www.facebook.com"><div id="contact" class="link"></div></a>
+	<a href="http://www.facebook.com">
+	<div class="marquee">
+	Then shall the righteous answer him, saying, Lord, when saw we thee an hungred, and fed thee? or thirsty, and gave thee drink?
+
+ When saw we thee a stranger, and took thee in? or naked, and clothed thee?
+
+ Or when saw we thee sick, or in prison, and came unto thee?
+
+ And the King shall answer and say unto them, Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me.
+	</div></a>
+</body>
+</html>
